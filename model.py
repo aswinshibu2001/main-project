@@ -3,7 +3,7 @@ import torch
 import numpy as np
 from facenet_pytorch import MTCNN, InceptionResnetV1, extract_face
 from PIL import Image
-
+#this is change made
 # Define the modified prewhiten function
 def prewhiten(x):
     mean = x.mean().item()
